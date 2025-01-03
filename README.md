@@ -14,7 +14,7 @@ Basic flask app deploying to AWS
 - Install Virtualenv
   ```sh
   sudo apt-get install python3-pip
-  sudo pip3 install virtualenv
+  sudo apt install python3-virtualenv
   ```
 
 
