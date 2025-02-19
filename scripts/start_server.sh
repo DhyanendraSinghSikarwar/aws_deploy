@@ -13,11 +13,11 @@ pip install -r requirements.txt
 pip install gunicorn
 
 
-sudo systemctl start flask_service.service
+sudo systemctl start flask-service.service
 
 sleep 5
 
-sudo systemctl status flask_service.service
+sudo systemctl status flask-service.service
 
 
 echo "------------------------------------  Application Started ------------------------------------ "
