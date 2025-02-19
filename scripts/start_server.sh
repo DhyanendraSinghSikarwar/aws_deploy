@@ -10,14 +10,12 @@ virtualenv --python=python3.11 venv
 source venv/bin/activate
 
 pip install -r requirements.txt
-pip install gunicorn
+
+python3 app.py
 
 
-sudo systemctl start flask-service.service
 
-sleep 5
 
-sudo systemctl status flask-service.service
 
 
 echo "------------------------------------  Application Started ------------------------------------ "
